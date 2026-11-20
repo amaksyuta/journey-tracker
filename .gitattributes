@@ -1,0 +1,6 @@
+# Normalize line endings in the repo (LF), convert per-OS on checkout.
+* text=auto
+# Shell scripts must stay LF or bash on macOS/Linux fails with "\r: command not found".
+*.sh text eol=lf
+# PowerShell scripts are happiest with CRLF on Windows.
+*.ps1 text eol=crlf
