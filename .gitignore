@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+backend/journey.db*
+backend/.jwt_secret
+# Node
+frontend/node_modules/
+frontend/dist/
+# Env
+.env
+
+# Local leftovers
+*.tgz
